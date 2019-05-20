@@ -12,6 +12,7 @@ describe('Header.vue', () => {
 
     let wrapper
     let store
+
     beforeEach(() => {
         store = new Vuex.Store({
             state: {
@@ -25,6 +26,7 @@ describe('Header.vue', () => {
             mutations: definedStore.mutations,
             actions: definedStore.actions
         })
+        document.body.setAttribute('data-app', true)
         wrapper = mount(Header, { store })
     })
 
@@ -37,5 +39,4 @@ describe('Header.vue', () => {
         wrapper.find('input').trigger('click');
         expect(wrapper.vm.$store.state.timerState).be.true;
     })
-
 })
