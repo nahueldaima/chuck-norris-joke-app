@@ -7,12 +7,13 @@ Vue.config.productionTip = false
 
 //Save store item to Local Storage
 store.subscribe((mutation, state) => {
-	localStorage.setItem('store', JSON.stringify(state.jokes.favouritesList));
+    localStorage.setItem('store', JSON.stringify(state.jokes.favouritesList));
+    localStorage.setItem('auth', JSON.stringify(state.auth));
 });
 
 
 new Vue({
-  store,
-  render: h => h(App)
+    store,
+    render: h => h(App)
 }).$mount('#app')
 

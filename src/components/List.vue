@@ -71,7 +71,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .listItem {
 	cursor: pointer;
 	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
@@ -85,5 +85,10 @@ export default {
 
 .v-toolbar__title {
 	font-size: 2vh !important;
+}
+
+.small {
+	text-align: right;
+	line-height: 1em;
 }
 </style>
