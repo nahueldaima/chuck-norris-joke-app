@@ -13,7 +13,7 @@ These are the instruction for preparring the dev enviroment
 Clone this repository:
 
 ```
-git clone https://nahueldaima@bitbucket.org/shiftmetrics/chuck-norris-joke-app.git
+git clone https://github.com/nahueldaima/chuck-norris-joke-app
 ```
 
 Run the command
