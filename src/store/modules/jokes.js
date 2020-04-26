@@ -40,9 +40,8 @@ const actions = {
                         })
                     }
                 })
-                .catch(e => {
+                .catch(() => {
                     dispatch('CREATE_GLOBAL_ERROR', "An error has occured while trying to fetch jokes from the API.");
-                    console.log(e)
                 })
         }
     },

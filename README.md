@@ -57,6 +57,10 @@ In order to run the test do:
 npm run test:unit
 ```
 
+## Demo
+
+You can [try this project here](http://chuck-norris-app.nahueldaima.com.s3-website.us-east-2.amazonaws.com/)
+
 ## Built With
 
 - [Vue CLI](https://cli.vuejs.org/) - The web framework used
